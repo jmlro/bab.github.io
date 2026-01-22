@@ -12,6 +12,7 @@ plugins:
 
 # Configuración de posts
 permalink: /:title/
+future: true
 
 # Excluir archivos
 exclude:

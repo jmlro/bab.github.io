@@ -20,14 +20,14 @@ categories: categoria
 
 ## Cómo crear categorías
 
-Para añadir una nueva categoría, crea un archivo en `category/nombre.md`:
+Para añadir una nueva categoría, crea un archivo en `categories/nombre.md`:
 
 ```
 ---
 title: "nombre"
 layout: category
 category: nombre
-permalink: /category/nombre/
+permalink: /categories/nombre/
 ---
 ```
 
