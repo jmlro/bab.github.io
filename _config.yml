@@ -1,0 +1,24 @@
+title: "Bab"
+description: "Un blog sobre calidad del software"
+url: "https://jmlro.github.io"
+baseurl: ""
+
+locale: "es"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Configuración de posts
+permalink: /:title/
+
+# Excluir archivos
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+# Incluir archivos
+include:
+  - _pages
