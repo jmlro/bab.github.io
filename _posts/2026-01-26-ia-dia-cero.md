@@ -8,7 +8,7 @@ Me incorporo a un proyecto y tengo que mantener y ampliar algunos repositorios d
 
 Abogo por el uso de la IA como una herramienta, unos prismáticos, la imagen complaciente del mayordomo que te hace el trabajo me genera rechazo. Esta aplicación sencilla me hace ver las cosas de otra manera.
 
-Hoy en día sobran chascarrillos acerca de lo rápido que vamos a ser sustituidos por IA, pero con un uso frecuente de las versiones PRO de algunos proveedores veo que el mantenimiento y acompañamiento humano siempre debe andar cerca. Cada vez las alucinaciones son más impredecibles, y lo más importante, no sabemos cómo hacen los "razonamientos"[^1] que hacen.
+Hoy en día sobran chascarrillos acerca de lo rápido que vamos a ser sustituidos por IA, pero con un uso frecuente de las versiones Pro de algunos proveedores veo que el mantenimiento y acompañamiento humano siempre debe andar cerca. Cada vez las alucinaciones son más impredecibles, y lo más importante, no sabemos cómo hacen los "razonamientos"[^1] que hacen.
 
 ---
 [^1]: Es pura estadística, el razonamiento es solo una ilusión.
