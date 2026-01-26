@@ -5,6 +5,8 @@ _site/
 .jekyll-metadata
 
 # Ruby
+# `bundle install`.
+# `bundle exec jekyll serve`.
 .bundle/
 vendor/
 *.gem
