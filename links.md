@@ -8,6 +8,7 @@ title: "links"
 ---
 
 about       <a href="/about/">sobre mí</a>
-feed        <a href="/feed.xml">rss</a></pre>
+blogroll    <a href="/blogroll/">sitios de internet</a>
+
 
 <a href="/" style="font-size: 0.7rem;">[X]</a>

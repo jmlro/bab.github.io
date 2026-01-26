@@ -7,7 +7,7 @@ permalink: /about/
 title: "about"
 ---
 
-QE con experiencia en el mundo del software testing.
+Trabajo en Madrid como QE.
 
 contacto    mesan.javier [at] gmail.com
 github      github.com/jmlro
