@@ -15,13 +15,22 @@ subtitle: "Diario <a href="/links/">QE</a>."
 {% for post in site.posts -%}
 {% assign post_year = post.date | date: "%Y" -%}
 {% assign post_month = post.date | date: "%-m" | plus: 0 -%}
-{% if post_month >= 12 or post_month <= 2 -%}
+{% assign post_day = post.date | date: "%-d" | plus: 0 -%}
+{% if post_month == 12 or post_month == 1 or post_month == 2 -%}
 {% assign post_season = 0 -%}
-{% elsif post_month >= 3 and post_month <= 5 -%}
+{% elsif post_month == 3 and post_day < 21 -%}
+{% assign post_season = 0 -%}
+{% elsif post_month == 3 or post_month == 4 or post_month == 5 -%}
 {% assign post_season = 1 -%}
-{% elsif post_month >= 6 and post_month <= 8 -%}
+{% elsif post_month == 6 and post_day < 21 -%}
+{% assign post_season = 1 -%}
+{% elsif post_month == 6 or post_month == 7 or post_month == 8 -%}
 {% assign post_season = 2 -%}
-{% else -%}
+{% elsif post_month == 9 and post_day < 23 -%}
+{% assign post_season = 2 -%}
+{% elsif post_month == 9 or post_month == 10 or post_month == 11 -%}
+{% assign post_season = 3 -%}
+{% elsif post_month == 12 and post_day < 21 -%}
 {% assign post_season = 3 -%}
 {% endif -%}
 {% if post_year != current_year -%}
