@@ -23,3 +23,8 @@ exclude:
 # Incluir archivos
 include:
   - _pages
+
+# Colecciones
+collections:
+  categories:
+    output: true
